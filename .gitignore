@@ -3,7 +3,8 @@
 Thumbs.db
 
 # VS Code local workspace settings
-.vscode/
+.vscode/*
+!.vscode/settings.json
 
 # Temporary working files
 tmp/
