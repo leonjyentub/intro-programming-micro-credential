@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="355" viewBox="0 0 1180 355" role="img" aria-labelledby="title desc">
+  <title id="title">網站服務的資料流程與技術架構</title>
+  <desc id="desc">使用者透過前端畫面與後端服務互動，後端讀寫資料庫；部署與維運支撐整個服務。</desc>
+  <defs>
+    <linearGradient id="front" x1="0" x2="1"><stop stop-color="#EAF4FB"/><stop offset="1" stop-color="#DCECF8"/></linearGradient>
+    <linearGradient id="back" x1="0" x2="1"><stop stop-color="#FFF8E9"/><stop offset="1" stop-color="#FFF0CF"/></linearGradient>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#4D799D"/></marker>
+    <marker id="soft-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#9FB6C9"/></marker>
+    <filter id="shadow" x="-10%" y="-18%" width="120%" height="145%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0A4A7A" flood-opacity="0.14"/></filter>
+  </defs>
+
+  <!-- Main request and data flow: connectors first -->
+  <g fill="none" stroke="#4D799D" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M160 115 H208"/>
+    <path d="M440 115 H488"/>
+    <path d="M720 115 H768"/>
+  </g>
+  <g fill="none" stroke="#9FB6C9" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#soft-arrow)">
+    <path d="M324 282 V246"/>
+    <path d="M604 282 V246"/>
+    <path d="M884 282 V246"/>
+  </g>
+
+  <!-- user -->
+  <g filter="url(#shadow)">
+    <rect x="20" y="82" width="140" height="112" rx="16" fill="#0A4A7A"/>
+    <rect x="56" y="103" width="68" height="45" rx="6" fill="#FFFFFF"/>
+    <circle cx="68" cy="115" r="5" fill="#F2B134"/>
+    <rect x="80" y="111" width="31" height="5" rx="2.5" fill="#89AAC6"/>
+    <rect x="65" y="126" width="50" height="5" rx="2.5" fill="#B6CADB"/>
+    <text x="90" y="171" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="700">使用者</text>
+  </g>
+
+  <!-- frontend -->
+  <g filter="url(#shadow)">
+    <rect x="208" y="60" width="232" height="186" rx="16" fill="url(#front)" stroke="#6E9FC3" stroke-width="1.5"/>
+    <rect x="208" y="60" width="232" height="45" rx="16" fill="#0A4A7A"/>
+    <path d="M208 89 H440 V105 H208 Z" fill="#0A4A7A"/>
+    <text x="324" y="89" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="700">前端畫面</text>
+    <text x="324" y="135" text-anchor="middle" fill="#0A4A7A" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="700">HTML · CSS · JavaScript</text>
+    <line x1="235" y1="153" x2="413" y2="153" stroke="#9EB9D0"/>
+    <text x="324" y="180" text-anchor="middle" fill="#34506B" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">活動介紹與報名畫面</text>
+    <text x="324" y="205" text-anchor="middle" fill="#34506B" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">輸入檢查與互動回饋</text>
+  </g>
+
+  <!-- backend -->
+  <g filter="url(#shadow)">
+    <rect x="488" y="60" width="232" height="186" rx="16" fill="url(#back)" stroke="#D7A33A" stroke-width="1.5"/>
+    <rect x="488" y="60" width="232" height="45" rx="16" fill="#D4631D"/>
+    <path d="M488 89 H720 V105 H488 Z" fill="#D4631D"/>
+    <text x="604" y="89" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="700">後端服務</text>
+    <text x="604" y="135" text-anchor="middle" fill="#A94712" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="700">Python + Django／Java 等</text>
+    <line x1="515" y1="153" x2="693" y2="153" stroke="#E6C275"/>
+    <text x="604" y="180" text-anchor="middle" fill="#66513A" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">登入、資格、名額規則</text>
+    <text x="604" y="205" text-anchor="middle" fill="#66513A" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">處理與回傳報名結果</text>
+  </g>
+
+  <!-- database -->
+  <g filter="url(#shadow)">
+    <rect x="768" y="60" width="232" height="186" rx="16" fill="url(#front)" stroke="#6E9FC3" stroke-width="1.5"/>
+    <rect x="768" y="60" width="232" height="45" rx="16" fill="#0A4A7A"/>
+    <path d="M768 89 H1000 V105 H768 Z" fill="#0A4A7A"/>
+    <text x="884" y="89" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="20" font-weight="700">資料庫</text>
+    <text x="884" y="135" text-anchor="middle" fill="#0A4A7A" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="700">SQL</text>
+    <line x1="795" y1="153" x2="973" y2="153" stroke="#9EB9D0"/>
+    <text x="884" y="180" text-anchor="middle" fill="#34506B" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">使用者與活動資料</text>
+    <text x="884" y="205" text-anchor="middle" fill="#34506B" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">名額與報名紀錄</text>
+  </g>
+
+  <!-- foundation / operations -->
+  <g filter="url(#shadow)">
+    <rect x="208" y="282" width="792" height="54" rx="13" fill="#162F49"/>
+    <text x="238" y="315" fill="#F2B134" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="19" font-weight="700">部署與維運</text>
+    <text x="395" y="315" fill="#FFFFFF" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">Linux　•　網路　•　雲端　•　資安　•　監控</text>
+    <text x="836" y="315" fill="#D6E5F1" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="14">支撐所有元件</text>
+  </g>
+</svg>

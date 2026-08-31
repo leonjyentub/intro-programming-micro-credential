@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="150" viewBox="0 0 1180 150" role="img" aria-labelledby="title desc">
+  <title id="title">Gemini 到 Antigravity 的概念層級</title>
+  <desc id="desc">Gemini 提供模型與對話能力，Antigravity 提供代理平台，再由桌面、IDE、CLI 和 SDK 等介面使用。</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5D88AA"/></marker><filter id="shadow" x="-8%" y="-20%" width="116%" height="145%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0A4A7A" flood-opacity="0.13"/></filter></defs>
+  <g fill="none" stroke="#5D88AA" stroke-width="4" marker-end="url(#arrow)"><path d="M365 75 H425"/><path d="M755 75 H815"/></g>
+  <g filter="url(#shadow)" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif">
+    <g><rect x="45" y="22" width="320" height="106" rx="17" fill="#EAF4FB" stroke="#76A7CA" stroke-width="1.5"/><text x="205" y="63" text-anchor="middle" fill="#0A4A7A" font-size="27" font-weight="700">Gemini</text><text x="205" y="93" text-anchor="middle" fill="#34506B" font-size="17">Google 的 AI 模型／對話能力</text></g>
+    <g><rect x="425" y="22" width="330" height="106" rx="17" fill="#FFF8E9" stroke="#E6B34C" stroke-width="1.5"/><text x="590" y="63" text-anchor="middle" fill="#A94712" font-size="27" font-weight="700">Antigravity</text><text x="590" y="93" text-anchor="middle" fill="#66513A" font-size="17">以 Gemini 為核心的 agent 平台</text></g>
+    <g><rect x="815" y="22" width="320" height="106" rx="17" fill="#EAF4FB" stroke="#76A7CA" stroke-width="1.5"/><text x="975" y="62" text-anchor="middle" fill="#0A4A7A" font-size="22" font-weight="700">桌面工作區／IDE／CLI／SDK</text><text x="975" y="93" text-anchor="middle" fill="#34506B" font-size="17">依工作方式選擇介面</text></g>
+  </g>
+</svg>

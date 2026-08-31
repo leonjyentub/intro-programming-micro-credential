@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="270" viewBox="0 0 1180 270" role="img" aria-labelledby="title desc">
+  <title id="title">從真實需求到測試維護的系統開發流程</title>
+  <desc id="desc">真實需求經過資料與流程設計、程式設計，再進入測試與維護，形成可改善的系統開發循環。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#5D88AA"/></marker>
+    <filter id="shadow" x="-10%" y="-18%" width="120%" height="145%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0A4A7A" flood-opacity="0.13"/></filter>
+  </defs>
+
+  <!-- connectors first -->
+  <g fill="none" stroke="#5D88AA" stroke-width="3" marker-end="url(#arrow)">
+    <path d="M278 109 H323"/>
+    <path d="M568 109 H613"/>
+    <path d="M858 109 H903"/>
+  </g>
+  <path d="M1040 224 C1040 247 142 247 142 230" fill="none" stroke="#A0B7C9" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#arrow)"/>
+  <text x="590" y="265" text-anchor="middle" fill="#647D96" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="600">測試得到的回饋，會帶你回到需求，繼續改善</text>
+
+  <!-- Need -->
+  <g filter="url(#shadow)">
+    <rect x="28" y="30" width="250" height="194" rx="16" fill="#EAF4FB" stroke="#76A7CA" stroke-width="1.5"/>
+    <rect x="28" y="30" width="250" height="48" rx="16" fill="#0A4A7A"/>
+    <path d="M28 61 H278 V78 H28 Z" fill="#0A4A7A"/>
+    <text x="153" y="61" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="21" font-weight="700">1　真實需求</text>
+    <circle cx="69" cy="113" r="20" fill="#0A4A7A" opacity="0.12"/>
+    <path d="M59 107 H79 V122 H69 L62 128 V122 H59 Z" fill="none" stroke="#0A4A7A" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="101" y="110" fill="#0A4A7A" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="700">先問清楚</text>
+    <text x="153" y="154" text-anchor="middle" fill="#34506B" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">目標是什麼？</text>
+    <text x="153" y="181" text-anchor="middle" fill="#34506B" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">限制與使用者是誰？</text>
+  </g>
+
+  <!-- Design -->
+  <g filter="url(#shadow)">
+    <rect x="318" y="30" width="250" height="194" rx="16" fill="#FFF8E9" stroke="#E6B34C" stroke-width="1.5"/>
+    <rect x="318" y="30" width="250" height="48" rx="16" fill="#D4631D"/>
+    <path d="M318 61 H568 V78 H318 Z" fill="#D4631D"/>
+    <text x="443" y="61" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="21" font-weight="700">2　資料與流程設計</text>
+    <circle cx="359" cy="113" r="20" fill="#D4631D" opacity="0.12"/>
+    <path d="M349 105 H369 V110 H349 Z M349 116 H369 V121 H349 Z" fill="none" stroke="#A94712" stroke-width="2.3"/>
+    <text x="391" y="110" fill="#A94712" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="700">先拆問題</text>
+    <text x="443" y="154" text-anchor="middle" fill="#66513A" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">資料要怎麼整理？</text>
+    <text x="443" y="181" text-anchor="middle" fill="#66513A" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">步驟能否逐一完成？</text>
+  </g>
+
+  <!-- Code -->
+  <g filter="url(#shadow)">
+    <rect x="608" y="30" width="250" height="194" rx="16" fill="#EAF4FB" stroke="#76A7CA" stroke-width="1.5"/>
+    <rect x="608" y="30" width="250" height="48" rx="16" fill="#0A4A7A"/>
+    <path d="M608 61 H858 V78 H608 Z" fill="#0A4A7A"/>
+    <text x="733" y="61" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="21" font-weight="700">3　程式設計</text>
+    <circle cx="649" cy="113" r="20" fill="#0A4A7A" opacity="0.12"/>
+    <path d="M641 105 L648 113 L641 121 M657 105 L650 113 L657 121" fill="none" stroke="#0A4A7A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="681" y="110" fill="#0A4A7A" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="700">讓電腦執行</text>
+    <text x="733" y="154" text-anchor="middle" fill="#34506B" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">把設計轉成指令</text>
+    <text x="733" y="181" text-anchor="middle" fill="#34506B" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">用語言清楚表達邏輯</text>
+  </g>
+
+  <!-- Test -->
+  <g filter="url(#shadow)">
+    <rect x="898" y="30" width="250" height="194" rx="16" fill="#FFF8E9" stroke="#E6B34C" stroke-width="1.5"/>
+    <rect x="898" y="30" width="250" height="48" rx="16" fill="#D4631D"/>
+    <path d="M898 61 H1148 V78 H898 Z" fill="#D4631D"/>
+    <text x="1023" y="61" text-anchor="middle" fill="#FFFFFF" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="21" font-weight="700">4　測試與維護</text>
+    <circle cx="939" cy="113" r="20" fill="#D4631D" opacity="0.12"/>
+    <path d="M930 113 L936 119 L948 106" fill="none" stroke="#A94712" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="971" y="110" fill="#A94712" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="18" font-weight="700">驗證與改善</text>
+    <text x="1023" y="154" text-anchor="middle" fill="#66513A" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">確認正確、找出問題</text>
+    <text x="1023" y="181" text-anchor="middle" fill="#66513A" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="16">留下可追蹤的版本</text>
+  </g>
+</svg>

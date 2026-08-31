@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="230" viewBox="0 0 1180 230" role="img" aria-labelledby="title desc">
+  <title id="title">Windows 命令提示字元檢查 Python 環境</title><desc id="desc">示範以 py --version 與簡單執行確認 Python 環境。</desc>
+  <rect x="10" y="10" width="1160" height="210" rx="16" fill="#101820"/><rect x="10" y="10" width="1160" height="38" rx="16" fill="#243442"/>
+  <circle cx="34" cy="29" r="6" fill="#FF6B5E"/><circle cx="54" cy="29" r="6" fill="#F4C542"/><circle cx="74" cy="29" r="6" fill="#63C174"/><text x="95" y="35" fill="#E7F1F7" font-family="Consolas, Menlo, monospace" font-size="18">Command Prompt — Python 環境檢查</text>
+  <g font-family="Consolas, Menlo, monospace" font-size="21"><text x="44" y="85" fill="#8CE99A">C:\Users\student&gt;</text><text x="252" y="85" fill="#F8F9FA">py --version</text><text x="431" y="85" fill="#FFD166">Python 3.14.4</text><text x="44" y="132" fill="#8CE99A">C:\Users\student&gt;</text><text x="252" y="132" fill="#F8F9FA">py -c "print('Hello, Python!')"</text><text x="44" y="167" fill="#DCEAF4">Hello, Python!</text><text x="44" y="201" fill="#8CE99A">C:\Users\student&gt;</text><text x="252" y="201" fill="#F8F9FA">_</text></g>
+</svg>

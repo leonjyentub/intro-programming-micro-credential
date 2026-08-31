@@ -1,0 +1,26 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# VS Code local workspace settings
+.vscode/
+
+# Temporary working files
+tmp/
+
+# Python virtual environments and cache
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Java build output
+*.class
+out/
+target/
+build/
+
+# Local environment files
+.env
+.env.*
+!.env.example

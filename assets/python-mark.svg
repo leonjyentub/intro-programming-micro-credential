@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Python 標誌風格圖示">
+  <rect width="160" height="160" rx="32" fill="#F5F8FB"/>
+  <path d="M78 20 C47 20 48 37 48 37 V55 H81 V61 H36 C36 61 19 59 19 94 C19 129 34 128 34 128 H52 V105 C52 105 50 78 79 78 H112 C112 78 137 82 137 52 V45 C137 45 141 20 109 20 Z" fill="#356A9A"/>
+  <circle cx="103" cy="39" r="6" fill="#FFFFFF"/>
+  <path d="M82 140 C113 140 112 123 112 123 V105 H79 V99 H124 C124 99 141 101 141 66 C141 31 126 32 126 32 H108 V55 C108 55 110 82 81 82 H48 C48 82 23 78 23 108 V115 C23 115 19 140 51 140 Z" fill="#F4C542"/>
+  <circle cx="57" cy="121" r="6" fill="#FFFFFF"/>
+</svg>

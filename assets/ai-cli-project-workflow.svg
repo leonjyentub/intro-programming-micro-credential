@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="220" viewBox="0 0 1180 220" role="img" aria-labelledby="title desc">
+  <title id="title">AI CLI 在專案資料夾中的工作流程</title>
+  <desc id="desc">AI CLI 從專案資料夾開始，讀取可見檔案、提出或執行修改、執行測試，最後由人審查結果。</desc>
+  <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#648CAE"/></marker><filter id="shadow" x="-9%" y="-18%" width="118%" height="145%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0A4A7A" flood-opacity="0.12"/></filter></defs>
+  <g fill="none" stroke="#648CAE" stroke-width="3" marker-end="url(#arrow)"><path d="M236 102 H259"/><path d="M466 102 H489"/><path d="M696 102 H719"/><path d="M926 102 H949"/></g>
+  <g filter="url(#shadow)" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif">
+    <g><rect x="20" y="35" width="216" height="136" rx="15" fill="#EAF4FB" stroke="#76A7CA"/><text x="128" y="75" text-anchor="middle" fill="#0A4A7A" font-size="20" font-weight="700">1　專案資料夾</text><text x="128" y="106" text-anchor="middle" fill="#34506B" font-size="16">終端機的位置</text><text x="128" y="132" text-anchor="middle" fill="#34506B" font-size="15">決定可見檔案範圍</text></g>
+    <g><rect x="250" y="35" width="216" height="136" rx="15" fill="#FFF8E9" stroke="#E6B34C"/><text x="358" y="75" text-anchor="middle" fill="#A94712" font-size="20" font-weight="700">2　讀取與理解</text><text x="358" y="106" text-anchor="middle" fill="#66513A" font-size="16">專案設定與可見檔案</text><text x="358" y="132" text-anchor="middle" fill="#66513A" font-size="15">先知道它會看到什麼</text></g>
+    <g><rect x="480" y="35" width="216" height="136" rx="15" fill="#EAF4FB" stroke="#76A7CA"/><text x="588" y="75" text-anchor="middle" fill="#0A4A7A" font-size="20" font-weight="700">3　提出／執行</text><text x="588" y="106" text-anchor="middle" fill="#34506B" font-size="16">指令、修改與 diff</text><text x="588" y="132" text-anchor="middle" fill="#34506B" font-size="15">先做小而可驗證的事</text></g>
+    <g><rect x="710" y="35" width="216" height="136" rx="15" fill="#FFF8E9" stroke="#E6B34C"/><text x="818" y="75" text-anchor="middle" fill="#A94712" font-size="20" font-weight="700">4　建置與測試</text><text x="818" y="106" text-anchor="middle" fill="#66513A" font-size="16">執行測試或建置</text><text x="818" y="132" text-anchor="middle" fill="#66513A" font-size="15">取得可檢查的結果</text></g>
+    <g><rect x="940" y="35" width="216" height="136" rx="15" fill="#EAF4FB" stroke="#76A7CA"/><text x="1048" y="75" text-anchor="middle" fill="#0A4A7A" font-size="20" font-weight="700">5　你來審查</text><text x="1048" y="106" text-anchor="middle" fill="#34506B" font-size="16">接受、修正或還原</text><text x="1048" y="132" text-anchor="middle" fill="#34506B" font-size="15">最後責任仍在自己</text></g>
+  </g>
+  <text x="590" y="207" text-anchor="middle" fill="#647D96" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="14">AI CLI 不是聊天室；它會在你授權的專案工作區內採取行動</text>
+</svg>

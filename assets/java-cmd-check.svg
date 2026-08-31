@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="260" viewBox="0 0 1180 260" role="img" aria-labelledby="title desc">
+  <title id="title">Windows 命令提示字元檢查 Java 環境</title><desc id="desc">示範以 java -version 與 javac -version 確認 Java 開發環境。</desc>
+  <rect x="10" y="10" width="1160" height="240" rx="16" fill="#101820"/><rect x="10" y="10" width="1160" height="38" rx="16" fill="#243442"/>
+  <circle cx="34" cy="29" r="6" fill="#FF6B5E"/><circle cx="54" cy="29" r="6" fill="#F4C542"/><circle cx="74" cy="29" r="6" fill="#63C174"/><text x="95" y="35" fill="#E7F1F7" font-family="Consolas, Menlo, monospace" font-size="18">Command Prompt — Java 環境檢查</text>
+  <g font-family="Consolas, Menlo, monospace" font-size="21"><text x="44" y="83" fill="#8CE99A">C:\Users\student&gt;</text><text x="252" y="83" fill="#F8F9FA">java -version</text><text x="44" y="116" fill="#DCEAF4">openjdk version "21.0.6" 2025-01-21 LTS</text><text x="44" y="146" fill="#DCEAF4">OpenJDK Runtime Environment Temurin-21.0.6+7</text><text x="44" y="176" fill="#DCEAF4">OpenJDK 64-Bit Server VM Temurin-21.0.6+7</text><text x="44" y="215" fill="#8CE99A">C:\Users\student&gt;</text><text x="252" y="215" fill="#F8F9FA">javac -version</text><text x="449" y="215" fill="#FFD166">javac 21.0.6</text></g>
+</svg>

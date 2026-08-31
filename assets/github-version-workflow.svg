@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="205" viewBox="0 0 1180 205" role="img" aria-labelledby="title desc">
+  <title id="title">Git 與 GitHub 的版本工作流程</title>
+  <desc id="desc">在本機修改程式，透過 Git commit 留下版本，再 push 到 GitHub 遠端專案。</desc>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10 Z" fill="#5D88AA"/></marker><filter id="shadow" x="-8%" y="-18%" width="116%" height="145%"><feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#0A4A7A" flood-opacity="0.13"/></filter></defs>
+  <g fill="none" stroke="#5D88AA" stroke-width="4" marker-end="url(#arrow)"><path d="M350 96 H418"/><path d="M762 96 H830"/></g>
+  <text x="384" y="20" text-anchor="middle" fill="#5D7890" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="15">git add / git commit</text>
+  <text x="796" y="20" text-anchor="middle" fill="#5D7890" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif" font-size="15">git push</text>
+  <g filter="url(#shadow)" font-family="Noto Sans TC, PingFang TC, Microsoft JhengHei, sans-serif">
+    <g><rect x="55" y="35" width="295" height="125" rx="18" fill="#EAF4FB" stroke="#76A7CA" stroke-width="1.5"/><rect x="55" y="35" width="295" height="42" rx="18" fill="#0A4A7A"/><path d="M55 61 H350 V77 H55 Z" fill="#0A4A7A"/><text x="202" y="62" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">本機資料夾</text><text x="202" y="108" text-anchor="middle" fill="#0A4A7A" font-size="19" font-weight="700">你正在修改的程式</text><text x="202" y="134" text-anchor="middle" fill="#34506B" font-size="15">寫程式、執行、測試</text></g>
+    <g><rect x="418" y="35" width="344" height="125" rx="18" fill="#FFF8E9" stroke="#E6B34C" stroke-width="1.5"/><rect x="418" y="35" width="344" height="42" rx="18" fill="#D4631D"/><path d="M418 61 H762 V77 H418 Z" fill="#D4631D"/><text x="590" y="62" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">Git 版本紀錄</text><text x="590" y="108" text-anchor="middle" fill="#A94712" font-size="19" font-weight="700">你做了什麼？為什麼改？</text><text x="590" y="134" text-anchor="middle" fill="#66513A" font-size="15">每次 commit 只完成一個小目的</text></g>
+    <g><rect x="830" y="35" width="295" height="125" rx="18" fill="#EAF4FB" stroke="#76A7CA" stroke-width="1.5"/><rect x="830" y="35" width="295" height="42" rx="18" fill="#0A4A7A"/><path d="M830 61 H1125 V77 H830 Z" fill="#0A4A7A"/><text x="977" y="62" text-anchor="middle" fill="#fff" font-size="19" font-weight="700">GitHub 遠端專案</text><text x="977" y="108" text-anchor="middle" fill="#0A4A7A" font-size="19" font-weight="700">備份、分享與合作</text><text x="977" y="134" text-anchor="middle" fill="#34506B" font-size="15">README 是專案的使用說明</text></g>
+  </g>
+</svg>
